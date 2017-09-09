@@ -3,8 +3,7 @@ package br.com.bitclouds.cormen.chapter2;
 public class cormenInsertSort {
 	public static void main(String[] args) {
 		int[] ints = {5, 2, 4, 6, 1, 3};
-		print(ints);
-		print(sort(ints));
+		sort(ints);
 	}
 	
 	public static int[] sort(int[] ints){
@@ -18,10 +17,5 @@ public class cormenInsertSort {
 			ints[i+1]=key;
 		}
 		return(ints);
-	}
-	
-	
-	public static void print(int[] ints){
-		System.out.println("Matriz: "+sortingUtil.toString(ints));		
 	}
 }

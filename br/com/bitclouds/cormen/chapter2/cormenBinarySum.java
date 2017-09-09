@@ -6,7 +6,6 @@ public class cormenBinarySum {
 		int[] B = {1,0,0,1,0,1,0,1,1,0};
 		int[] C = new int[A.length+1];
 		sum(A, B, C);
-		System.out.println("C "+sortingUtil.toString(C));
 	}
 	
 	public static int[] sum(int[] A, int[] B, int[] C){
