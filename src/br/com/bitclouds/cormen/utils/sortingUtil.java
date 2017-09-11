@@ -1,4 +1,4 @@
-package br.com.bitclouds.cormen.chapter2;
+package br.com.bitclouds.cormen.utils;
 
 public class sortingUtil {
 	public static String toString(int[] ints){
