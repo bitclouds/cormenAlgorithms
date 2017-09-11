@@ -1,6 +1,6 @@
 package br.com.bitclouds.cormen.chapter2;
 
-public class cormenSearchValue {
+public class CormenSearchValue {
 	public static void main(String[] args) {
 		int[] ints = {};
 		int var = 1;

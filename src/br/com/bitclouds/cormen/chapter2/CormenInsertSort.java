@@ -1,6 +1,6 @@
 package br.com.bitclouds.cormen.chapter2;
 
-public class cormenInsertSort {
+public class CormenInsertSort {
 	public static void main(String[] args) {
 		int[] ints = {5, 2, 4, 6, 1, 3};
 		sort(ints);

@@ -1,6 +1,6 @@
 package br.com.bitclouds.cormen.chapter2;
 
-public class cormenBinarySum {
+public class CormenBinarySum {
 	public static void main(String[] args) {
 		int[] A = {1,1,0,0,0,1,0,1,1,0};
 		int[] B = {1,0,0,1,0,1,0,1,1,0};

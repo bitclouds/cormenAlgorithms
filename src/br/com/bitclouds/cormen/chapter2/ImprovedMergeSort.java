@@ -1,6 +1,8 @@
 package br.com.bitclouds.cormen.chapter2;
 
-public class improvedMergeSort {
+import br.com.bitclouds.cormen.utils.sortingUtil;
+
+public class ImprovedMergeSort {
 	
 	public static void main(String[] args) {
 		int[] ints = {1, 7, 9, 11, 13, 2, 4, 6, 8, 10};
