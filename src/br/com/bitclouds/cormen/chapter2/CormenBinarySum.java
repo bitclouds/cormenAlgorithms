@@ -1,12 +1,11 @@
 package br.com.bitclouds.cormen.chapter2;
 
-public class cormenBinarySum {
+public class CormenBinarySum {
 	public static void main(String[] args) {
 		int[] A = {1,1,0,0,0,1,0,1,1,0};
 		int[] B = {1,0,0,1,0,1,0,1,1,0};
 		int[] C = new int[A.length+1];
 		sum(A, B, C);
-		System.out.println("C "+sortingUtil.toString(C));
 	}
 	
 	public static int[] sum(int[] A, int[] B, int[] C){
